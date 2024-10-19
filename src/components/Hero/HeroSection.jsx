@@ -1,5 +1,8 @@
 import React from 'react';
 import './HeroSection.css'; // Import the CSS file for styling
+import heroim from "../../images/bigpic.png"
+
+
 
 const HeroSection = () => {
   return (
@@ -23,7 +26,7 @@ const HeroSection = () => {
       <div className="hero-images">
       
         
-        <img src="src\images\heroimg.JPG" alt="Make a palette" className="palette-img" />
+        <img src={heroim}  className="palette-img" />
       </div>
     </section>
     </div>
