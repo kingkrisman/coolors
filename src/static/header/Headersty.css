@@ -1,0 +1,141 @@
+.header{
+    display: flex;
+   align-content: center;
+   align-items: center;
+    gap: 20%;
+    padding: 20px;
+    height: 20px;
+   max-height: 20px;
+   margin: auto;
+
+}
+
+.logo{
+    width: 200px;
+}
+
+.links{
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+}
+
+
+.nav{
+    margin-left:50% ;
+   display: flex;
+
+}
+
+.tools{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.gopro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+
+}
+
+.signin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-left: 1px solid black;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: transparent;
+    margin-top: -10px;
+}
+.signup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   background-color: #0070f3;
+   border: 1px solid  #0070f3;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 20px;
+color: white;
+margin-top: -10px;
+    
+}
+
+
+
+@media (max-width: 1440px) {
+
+    .header{
+        display: flex;
+       align-content: center;
+       align-items: center;
+        gap: 45%;
+        padding: 40px;
+        height: 20px;
+       max-height: 30px;
+       margin: auto;
+    position: relative;
+   
+    }
+    
+    .logo{
+        width: 200px;
+    }
+    
+    .links{
+        display: flex;
+        font-size: 30px;
+        gap: 20px;
+        
+        
+    }
+    
+    
+    .nav{
+        margin-left:50% ;
+       display: flex;
+       
+    
+    }
+    
+    .tools{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .gopro{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: red;
+    
+    }
+    
+    .signin{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        border-left: 1px solid black;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        background-color: transparent;
+        margin-top: -10px;
+    }
+    .signup{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+       background-color: #0070f3;
+       border: 1px solid  #0070f3;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       padding-left: 10px;
+       padding-right: 10px;
+       border-radius: 20px;
+    color: white;
+    margin-top: -10px;
+        
+    }
+    
+}
